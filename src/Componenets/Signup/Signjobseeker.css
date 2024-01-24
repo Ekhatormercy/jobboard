@@ -1,0 +1,219 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.jobseekerboxx{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 207, 135);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jobseekwrap{
+    width: 80%;
+    height: 95%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.seekleft{
+    width: 40%;
+    height: 80%;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+}
+.seekleft h1{
+    font-size: 30px;
+    font-family: "raleway";
+}
+.jobdiscrip{
+    width: 100%;
+    height: 60%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+
+}
+.checkic{
+    font-size: 20px;
+    color: green;
+}
+.chechold{
+    display: flex;
+    gap: 10px;
+}
+.chechold p{
+font-size: 20px;
+font-family: "raleway";
+font-weight: 700;
+}
+.downpp{
+ font-size: 18px;
+ font-family: "raleway";
+ font-weight: 500;
+}
+.downpp span{
+    color: red;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800;
+}
+.seekright{
+   width: 50%;
+   height: 90%;
+   background-color: rgb(242, 242, 242);
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   
+}
+.seekwrpr{
+    width: 85%;
+    height: 95%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.seekwrpr h2{
+    font-size: 25px;
+}
+.inpupth{
+    width: 100%;
+    height: 60%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.inpunln{
+    width: 100%;
+    height: 20%;
+    /* background-color: pink; */
+    display: flex;
+
+}
+.namein{
+    width: 50%;
+    height: 100%;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+.errorText{
+    color: red;
+    font-size: 8px;
+  }
+.namein p{
+    font-size: 15px;
+    font-family: "raleway";
+    font-weight: 600;
+}
+
+.namein input{
+    width: 90%;
+    height: 70%;
+    border: 2px solid lightgrey;
+    outline: none;
+    font-size: 20px;
+    font-family: "raleway";
+}
+.namein input:hover{
+    border: 2px solid orangered; 
+}
+.inpunn{
+    width: 100%;
+    height: 20%;
+    /* background-color: pink; */
+    display: flex;
+
+}
+.lnginn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.lnginn p{
+    font-size: 15px;
+    font-family: "raleway";
+    font-weight: 600;
+}
+.inputii{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.lnginn input{
+    width: 84%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    /* background-color: white; */
+    outline: none;
+    font-size: 20px;
+    font-family: "raleway";
+    padding-right: 15px;
+}
+.lnginn input:hover{
+  
+    border: 2px solid orangered;
+  
+}
+.eyediv{
+    width: 12%;
+    height: 90%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.getstartbtn{
+    width: 25%;
+    height: 8%;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "raleway";
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.AiOutlineEyeInvisible{
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+  }
+  .AiOutlineEye{
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+  }
+  .err{
+    font-size: 1px;
+    color: red;
+  }
+  span{
+    color: red;
+    cursor: pointer;
+  }
+  select{
+    width: 95%;
+    height: 15%;
+}

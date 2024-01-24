@@ -1,0 +1,94 @@
+.homescrollbox{
+  width: 100%;
+  /* background-color: red; */
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.scrollwrap{
+    width: 85%;
+    height: 95%;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.whychoose{
+    width: 100%;
+    height: 20%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whychoose h1{
+    font-size: 30px;
+    font-family: "poppins", "raleway";
+    line-height: 80px;
+}
+.boxscontainer{
+    width: 100%;
+    height: 70%;
+    /* background-color: goldenrod; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hombox{
+    width: 22%;
+    height: 95%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transform: scale(1);
+  transition: all 250ms ease-in;
+}
+.hombox:hover{
+    transform: scale(1.08);
+}
+.boxwraapp{
+    width: 85%;
+    height: 97%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cirhome{
+    width: 120px;
+    height: 120px;
+    /* background-color: grey; */
+    border-radius: 100%;
+}
+.cirhome img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.boxwraapp h1{
+    font-size: 25px;
+    font-family: "poppins", "raleway";
+   color: rgb(102, 102, 102); 
+  /* font-family:"Carrois Gothic";   */
+
+}
+.boxwraapp p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "raleway";
+    /* line-height: 80px; */
+    
+
+}
+#Homepagebox.actives{
+    background: lightblue;
+    transition: 0.5s;
+}

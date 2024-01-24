@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.jobpage{
+    width: 100%;
+    height: 30vh;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+/* .jpbpgewrap{
+    width: 80%;
+    height: 300px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.titleh1{
+    width: 100%;
+    height: 300px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.titleh1 h1{
+    font-size: 35px;
+    font-family: "raleway", "poppins";
+    font-weight: 700;
+}
+.titleh1::after{
+     position: absolute;
+        content: " ";
+        top: 80%;
+        width: 9%;
+        height: 9px;
+        background-color: orange;
+        
+ }
+ .aalltitles{
+    width: 70%;
+    height: 700px;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .alljobs1{
+    width: 20%;
+    height: 40%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgrey;
+    font-family: "raleway";
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+ }
+ .alljobs1:active{
+    background-color: orange;
+   }
+   .Active{
+       background-color: orange;
+       color: white;
+   }
+   .mainjobs{
+    width: 100%;
+    height:max-content;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items:center ; 
+    gap: 10px;
+    margin-top: 2%;
+   }
+   /* All Jobs */
+   .Jobsss{
+    width: 80%;
+    min-height: max-content;
+    display: flex;
+    /* background-color: yellow; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items:center ;
+    /* gap: 10px; */
+   }
+  
+   .jobscard{
+    width: 360px;
+    height: 270px;
+    /* background-color: blue; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: flex;
+    justify-content: center;
+    align-items:center ; 
+   }
+   .jobscard:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   }
+   .jobcardwrap{
+    width: 85%;
+    height: 90%;
+    background-color: rgb(252, 252, 252);
+    border: 2px solid lightgray;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+   .jobicondiv{
+    width: 55px;
+    height: 55px;
+    background-color: orange;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ; 
+   }
+   .jobcardwrap h2{
+    font-size: 25px;
+    font-family: "poppins", "raleway";
+    font-weight: 600;
+   }
+   .Applybtn{
+    width: 40%;
+    border-radius: 5px;
+    height: 15%;
+    background-color: orange;
+    border: none;
+    transform: scale(1);
+    transition: all 250ms ease-in;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 600;
+   }
+   .Applybtn:hover{
+    transform: scale(1.08);
+    color: white;
+   }

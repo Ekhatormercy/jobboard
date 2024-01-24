@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.loginbox{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginwrap{
+    width: 35%;
+    height: 80%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.lginwarp{
+    width: 90%;
+    height: 80%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.emil{
+    width: 100%;
+    height: 20%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.pass{
+    width: 100%;
+    height: 20%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.emil p{
+    font-size: 20px;
+    font-family: "raleway";
+    font-weight: 500;
+}
+.pass p{
+    font-size: 20px;
+    font-family: "raleway";
+    font-weight: 500;
+}
+.emil input{
+    width: 95%;
+    height: 60%;
+    outline: none;
+    border: 2px solid lightgrey;
+    font-size: 15px;
+    font-family: "raleway" ;
+}
+.pass input{
+    width: 88%;
+    height: 90%;
+    outline: none;
+    border: 2px solid lightgrey;
+    font-size: 15px;
+    font-family: "raleway" ;
+}
+.psshold{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.eyediv1{
+    width: 12%;
+    height: 89%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lgtnn{
+    width: 95%;
+    height: 60%;
+    background-color: orange;
+    border: none;
+    font-size: 15px;
+    font-family: "raleway";
+    font-weight: 800;
+    cursor: pointer;
+}
+.btnhold{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+p{
+    font-size: 15px;
+    font-family: "raleway";
+    font-weight: 500;
+}
+span{
+    color: orange;
+}

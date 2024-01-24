@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.postjobpage{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom left,rgb(222, 219, 219), rgb(239, 163, 20));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pstwrap1{
+    width: 40%;
+    height: 95%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.inputwrap11{
+    width: 85%;
+    height: 91%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.uppathd{
+    width: 100%;
+    height: 9%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    border-radius:10px 10px 0px 0px;
+}
+.uppathd h1{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: "raleway";
+    font-weight: 700;
+}
+.postinpu1{
+    width: 90%;
+    height: 13%;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.err1{
+    font-size: 15px;
+    color: red;
+}
+.postinpu1 h3{
+    font-size: 20px;
+    font-family: "raleway";
+}
+.postinpu1 input{
+    width: 90%;
+    height: 50%;
+    outline: none;
+    border: 2px solid lightgray;
+    font-family: "poppins";
+    font-size: 20px;
+
+}
+#selll{
+    width: 40%;
+    height: 50%;
+    cursor: pointer;
+  
+}
+.selectdiv{
+    width: 90%;
+    height: 13%;
+    /* background-color: red; */
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.createbtn{
+    width: 20%;
+    height: 50%;
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-family: "raleway";
+    font-weight: 600;
+    transform: scale(1);
+    transition: all 250ms ease-in;
+}
+.createbtn:hover{
+    background-color:rgb(243, 176, 53);
+    border: 3px solid black;
+    transform: scale(1.08);
+}

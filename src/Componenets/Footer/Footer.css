@@ -1,0 +1,140 @@
+.Footerdiv{
+ width: 100%;
+ height: 100vh;
+ background-color: rgb(235, 235, 235);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.footwrap{
+    width: 85%;
+    height: 95%;
+    /* background-color: white; */
+}
+.footup{
+    width: 100%;
+    height: 30%;
+    background-color:rgb(224, 224, 224);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.footh1{
+    width: 40%;
+    height: 25%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.footh1 h1{
+    font-size: 30px;
+    font-family: "raleway";
+    font-weight: 800;
+}
+.footh1::after{
+    position: absolute;
+    content: " ";
+    top: 90%;
+    width: 20%;
+    height: 9px;
+    background-color: rgb(255, 139, 61);
+}
+.footup p{
+    font-size: 20px;
+    font-family: "raleway";
+    font-weight: 500;
+}
+.footinput{
+    width: 60%;
+    height: 25%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+.footinput input{
+    width: 70%;
+    height: 90%;
+    border: 3px solid rgb(255, 139, 61);
+    border-radius: 2px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "raleway";
+
+}
+.subbtn{
+    width: 25%;
+    height: 90%;
+    background-color: rgb(255, 139, 61);
+    border: none;
+    font-size: 20px;
+    font-family: "raleway";
+  
+    font-weight: 600;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+}
+.footdown{
+    width: 85%;
+    height: 70%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot1{
+    width: 24%;
+    height: 85%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+.foot1 h3{
+    font-size: 18px;
+    font-family: 'raleway', "poppins";
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+   
+}
+.downh1 h3::after{
+    position: absolute;
+    content: " ";
+    right: 65%;
+    top: 95%;
+    /* bottom: 100%; */
+    width: 35%;
+    height: 5px;
+    background-color: rgb(255, 139, 61); 
+}
+.downh1{
+    height: 8%;
+    width: 80%;
+    /* background-color: grey; */
+    position: relative;
+}
+.foot1 p{
+    font-size: 15px;
+    font-family: "raleway";
+    font-weight: 600;
+    color: rgb(87, 83, 83);
+    cursor: pointer;
+}
+.foot1 p:hover{
+    color: rgb(255, 139, 61); 
+    
+    /* width: 50%; */
+    /* border-bottom: 2px solid orangered; */
+}
+

@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.splashscreen{
+    width: 100%;
+    height: 100vh;
+    background-color:  lightblue;
+    /* background-image: url(https://www.shutterstock.com/image-photo/portrait-beautiful-middle-eastern-manager-600nw-2231710239.jpg); */
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+}
+.splashleft{
+    width: 50%;
+    height: 80%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.sleftwrap{
+    width: 90%;
+    height: 80%;
+    background-color: lightblue;
+    /* background-color: white; */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    flex-direction: column;
+
+}
+.scrnbtn{
+    width: 80%;
+    height: 20%;
+    /* background-color: white; */
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 10%;
+}
+.signbtn{
+    width: 25%;
+    height: 50%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "raleway";
+    font-weight: 600;
+    cursor: pointer;
+}
+.logbtn{
+    width: 25%;
+    height: 50%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "raleway";
+    font-weight: 600;
+    cursor: pointer;
+}
+.sleftwrap h1{
+    font-family: "raleway";
+    font-size: 49px;
+    line-height: 70px;
+    /* color: white; */
+}
+.sleftwrap span{
+    color: blue;
+    font-family: "raleway";
+
+}
+.splashright{
+    width:  45%;
+    height: 80%;
+    /* background-color: white; */
+  background-image: url(https://www.shutterstock.com/image-photo/portrait-beautiful-middle-eastern-manager-600nw-2231710239.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;  
+}
+.splashright img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
