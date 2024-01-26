@@ -96,7 +96,7 @@
 
     .splashscreen{
         width: 100%;
-        height: 100vh;
+        height: 80vh;
         background-color:  lightblue;
         display: flex;
         flex-direction: column;
@@ -119,23 +119,23 @@
         box-shadow: none;
     }
     .sleftwrap h1{
-        font-size: 30px; 
+        font-size: 25px; 
     }
     .splashright{
         display: none;
     }
     .scrnbtn{
-        width: 60%;
+        width: 100%;
         height: 50%;
         /* background-color: white; */
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         /* justify-content: space-around; */
         gap: 5%;
     }
     .signbtn{
-        width: 35%;
-        height: 30%;
+        width: 40%;
+        height: 25%;
         background-color: blue;
         color: white;
         border: none;
@@ -146,8 +146,8 @@
         cursor: pointer;
     }
     .logbtn{
-        width: 35%;
-        height: 30%;
+        width: 40%;
+        height: 25%;
         background-color: blue;
         color: white;
         border: none;

@@ -118,8 +118,9 @@ span{
 }
 @media screen and (max-width :1078px){
     .loginwrap{
-        width: 70%;
+        width: 90%;
         height: 80%; 
+        /* background-color: grey; */
     }
     .lginwarp{
         width: 100%;
