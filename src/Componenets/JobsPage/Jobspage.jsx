@@ -5,12 +5,15 @@ import Allaccounts from "./Allaccounts"
 import Allfield from "./Allfield"
 import Allremote from "./Allremote"
 import Header from "../Header/Header"
+import Dropdown from "../Header/Dropdown"
 const Jobspage =()=>{
+
     const [active, setActive] =useState("Active")
     const [alljobs, setalljobs] =useState(true)
     const [allfields, setallfields] =useState(false)
     const [allremote, setremotejobs] =useState(false)
     const [allaccount, setaccountjobs] =useState(false)
+    const [show, setShow] = useState(false)
 
     const changeStateAllJobs=()=>{
         setalljobs(true);
@@ -37,14 +40,14 @@ const Jobspage =()=>{
         setallfields(false);
     }
 
-
-    
-
-    return(
+ return(
 
         <>
 
-        <Header/>
+<Header show={show} setShow={setShow}/>
+      {
+   show === true? <Dropdown/> :null
+     }
        <div className="jobpage">
        
             <div className="titleh1">

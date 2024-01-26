@@ -7,6 +7,7 @@ import * as yup from "yup"
 import axios from "axios";
 import "./Login.css"
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
+import Dropdown from "../Header/Dropdown";
 
 const Login =()=>{
 
@@ -20,6 +21,7 @@ const Login =()=>{
   const [showPassword, setShowPassword] = useState(false)
  
   const [loading, setLoading] =useState(false)
+  const [show, setShow] = useState(false)
 
   const handleShowPassword = () => {
     console.log("object");
@@ -65,7 +67,10 @@ const { register,
     return(
       <>
     <form onSubmit={handleSubmit(onSubmit)}>
-      <Header/>
+      <Header show={show} setShow={setShow}/>
+      {
+   show === true? <Dropdown/> :null
+     }
       <div className="loginbox">
         <div className="loginwrap">
           <div className="lginwarp">

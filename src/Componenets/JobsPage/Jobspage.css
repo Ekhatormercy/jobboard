@@ -6,20 +6,12 @@
 .jobpage{
     width: 100%;
     height: 30vh;
-    /* background-color: gray; */
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
 }
-/* .jpbpgewrap{
-    width: 80%;
-    height: 300px;
-    background-color: green;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
+
 .titleh1{
     width: 100%;
     height: 300px;
@@ -147,4 +139,28 @@
    .Applybtn:hover{
     transform: scale(1.08);
     color: white;
+   }
+   @media screen and (max-width :1078px){
+    .aalltitles{
+        width: 100%;
+        height: 700px;
+        /* background-color: pink; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+     }
+     .alljobs1{
+        width: 65%;
+        height: 45%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgrey;
+        font-family: "raleway";
+        font-size: 18px;
+        font-weight: 800;
+        cursor: pointer;
+     }
    }

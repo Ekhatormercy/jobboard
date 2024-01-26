@@ -5,10 +5,12 @@ import * as yup from "yup"
 import axios from "axios";
 import Header from "../Header/Header";
 import { useState } from "react";
+import Dropdown from "../Header/Dropdown";
 const Postjobs = () => {
 
     const [jobType, setJobType] = useState("")
     const [loading, setLoading] = useState(false)
+    const [show, setShow] =useState(false)
 
     console.log(jobType)
 
@@ -53,7 +55,11 @@ const Postjobs = () => {
   return (
     <>
     <form onSubmit={handleSubmit(onSubmit)}>
-    <Header/>
+   
+<Header show={show} setShow={setShow}/>
+      {
+   show === true? <Dropdown/> :null
+     }
     <div className="postjobpage">
       <div className="pstwrap1">
         <div className="uppathd">

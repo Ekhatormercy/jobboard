@@ -1,8 +1,10 @@
 import "./Header.css"
+import { FcMenu } from 'react-icons/fc';
+import { GiCancel } from 'react-icons/gi';
 import { IoIosArrowDown } from "react-icons/io";
 import joblogo from "../../assets/joblogo.png"
 import { useNavigate } from "react-router-dom";
-const Header = () => {
+const Header = ({show, setShow}) => {
 
     const Nav =useNavigate()
 
@@ -50,12 +52,19 @@ const Header = () => {
                     <button onClick={ handlogin} className="lg">Login</button>
                     <button onClick={handsign}  className="sgup">Sign Up</button>
 
-                    <div className="switch">
+                   
+                </div>
+                <div className="switch">
                     <div onClick={handletoggle} id="toggle">
                        <i className="Ind"></i>
                     </div> 
                     </div>
-                </div>
+                    <div className='burger' onClick={() => setShow(!show)}>
+
+{
+    show === false ? <FcMenu /> : <GiCancel />
+}
+</div>
             </div>
         </div>
     )

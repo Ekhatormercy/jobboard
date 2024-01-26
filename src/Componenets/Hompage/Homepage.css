@@ -72,3 +72,32 @@
     object-fit:contain;
     /* background-position: center; */
 }
+
+@media screen and (max-width :1078px){
+    #Homepagebox{
+        width: 100%;
+        height: 70vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.righthom{
+    display: none;
+}
+.lefthme{
+    width: 80%;
+    height: 90%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 5%;
+}
+.lefthme h1{
+    font-size: 35px;
+    font-family: "raleway","poppins";
+    font-weight: 700;
+
+}
+}

@@ -42,16 +42,16 @@
   color: grey;
 }
 .siglog{
-    width: 30%;
+    width: 10%;
     height: 100%;
     /* background-color: grey; */
     display: flex;
     align-items: center;
-    gap: 5%;
+    gap: 8%;
     /* justify-content: space-; */
 }
 .lg{
-    width: 20%;
+    width: 45%;
     height: 50%;
     border: 3px solid white;
     background-color: transparent;
@@ -68,7 +68,7 @@
     transform: scale(1.08);
 }
 .sgup{
-    width: 20%;
+    width: 45%;
     height: 50%;
     border: 3px solid black;
     background-color: transparent;
@@ -85,11 +85,11 @@
     /* border: 3px solid white; */
 }
 .switch{
-        width: 40%;
-        height: 60px;
+        width: 10%;
+        height: 100%;
         /* background-color: red; */
         display: flex;
-       
+        align-items: center;
         justify-content: flex-end;
     
 }
@@ -125,9 +125,51 @@
     background:linear-gradient(to bottom, #222, #444);
 
 }
+.burger{
+    width: 10%;
+    height: 100%;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    display: none;
+}
+.dropdown{
+    width: 100%;
+    padding-inline: 10px;
+    display: flex;
+    font-family: "raleway";
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+    
+}
+.dropdown div{
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+  
+}
+@media screen and (max-width :1078px){
+  .joblist{
+    display: none;
+  } 
+  .siglog{
+    display: none;
+  } 
+  .switch{
+    width: 25%;
+    height: 100%;
+    /* background-color: green; */
+  }
+  .dropdown{
+    display: flex;
+  }
+  .burger{
+    display: flex;
+  }
 
+}
 
-/* .head.actives{
-    background: blue;
-    transition: 0.5s;
-} */
