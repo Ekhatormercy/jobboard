@@ -3,7 +3,7 @@ import jobgirlimg from "../../assets/jobgirlimg.png"
 import Footer from "../Footer/Footer"
 import Header from "../Header/Header"
 import "./Homepage.css"
-// import "./Header.css"
+
 import Homescroll from "./Homescroll"
 import Dropdown from "../Header/Dropdown"
 const Homepage =()=>{
